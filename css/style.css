@@ -28,7 +28,7 @@
     color: var(--Naranjoso)
 }
 .header-nav-buttom {
-    color: var(--blanco)
+    color: var(--blanco);
     font-weight: 900;
     padding: 12px 24px;
     border-radius: 12px;
@@ -37,4 +37,64 @@
 
 .header-nav-buttom:hover {
     background-color: var(--Naranjoso);
+}
+
+/* hero */
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.hero-wrapper {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: chartreuse;
+}
+
+.hero-content {
+    padding: 24px;
+    background-color: chocolate;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 900px;
+    line-height: 64px;
+    color: var(--Verde);
+    margin-bottom: 24px;
+    background-color: crimson;
+}
+
+.hero-paragraph {
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--negro);
+    margin-bottom: 24px;
+    background-color: cornflowerblue;
+}
+
+.hero-buttom {
+    max-width: 200px;
+    width: fit-content;
+    color: var(--blanco);
+    font-weight: 900;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: var(--Verde);
+}
+
+.hero-buttom:hover {
+    background-color: var(--Naranjoso);
+}
+
+.hero-profile {
+    background-color: darkgoldenrod;
+}
+
+.hero-image {
+    background-color: indigo;
 }
